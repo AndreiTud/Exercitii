@@ -1,4 +1,4 @@
-program ArieCerc;
+program Tema3;
 
 {$APPTYPE CONSOLE}
 
