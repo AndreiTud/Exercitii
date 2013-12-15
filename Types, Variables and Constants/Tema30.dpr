@@ -20,6 +20,6 @@ begin
   Readln(Input, Anul);
   Data := EncodeDate(Anul, Luna, Ziua);
   Zi := DayOfWeek(Data) - 1;
-  writeln('Ziua este: ' + IntToStr(Zi));
+  writeln('Este a ' + IntToStr(Zi) + '-a zi din saptamana');
   Readln;
 end.
