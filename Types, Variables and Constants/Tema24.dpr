@@ -6,13 +6,14 @@ uses
   SysUtils;
 
 begin
-  Writeln('Marimea unui byte este de 8 bits' );
+  Writeln('Marimea unui byte este de ' + IntToStr(SizeOf(Byte)) + ' bits' );
   Writeln;
-  Writeln('Byte-ul poate lua valori de la 0 la 255');
+  Writeln('Byte-ul poate lua valori de la ' + IntToStr(Low(Byte)) + ' pana la ' + IntToStr(High(Byte)));
   Writeln;
-  Writeln('Marimea unui integer este de 16/32 bits');
+  Writeln('Marimea unui integer este de ' + IntToStr(SizeOf(Integer)) + ' bits');
   Writeln;
-  Writeln('Integer0 ul poate lua valori de la -2,147,483,648 pana la 2,147,483,647');
+  Writeln('Integer-ul poate lua valori de la ' + IntToStr(Low(Integer)) + ' pana la ' + IntToStr(High(Integer)));
   Readln;
+
+
 end.
- 
